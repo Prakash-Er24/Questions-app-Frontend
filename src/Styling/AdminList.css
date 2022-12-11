@@ -1,0 +1,168 @@
+.AdminData h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  width: 100%;
+  font-size: 180%;
+}
+.AdminData h1{
+  text-align: center;
+}
+
+.adminQuestions {
+  position:relative;
+  border:1px solid rgba(199, 199, 199, 0.74);
+  margin-bottom: 20px;
+  width:60%;
+  background-color: rgba(235, 228, 228, 0.336);
+  padding:8px 15px;
+  border-radius:10px;
+  margin-left: 20%;
+}
+.adminQuestions:hover{
+  box-shadow: 3px 3px 4px gray;
+}
+.adminQuestions .likesBtn{
+  width : 60px;
+  padding:8px 15px;
+  background-color:rgba(10, 159, 228, 0.534);
+  border:transparent;
+  border-radius:5px;
+  font-weight:bold;
+  color:white;
+  cursor:pointer;
+}
+ 
+.adminQuestions b{
+  font-size: 110%;
+  margin-left: 5px;
+}
+.adminQuestions p{
+  font-size: 170%;
+  margin:0 0 15px 0;
+}
+
+.quesData{
+  display: inline;
+}
+
+input[type='checkbox']{
+  margin-left: 34%;
+}
+
+.answered{
+  color:green;
+  font-weight: bolder;
+  font-size: 110%;
+}
+
+.unanswered{
+  font-weight: bolder;
+  color:red;
+  font-size: 110%;
+}
+
+ .name{
+ position: absolute;
+ right:0;
+ margin-right:20px;
+ font-weight: bold;
+ font-size: 110%;
+}
+ 
+.likedData{
+  display: none;
+  position: absolute;
+  border-radius: 5px;
+  box-shadow: 4px 3px 6px rgba(128, 128, 128, 0.89);
+  z-index: 1;
+}
+
+.quesData .likedData div{
+  padding: 5px;
+  border:1px solid rgba(128, 128, 128, 0.678);
+  font-size: 110%;
+  border-radius: 5px;
+  
+}
+
+.quesData:hover .likedData {
+  display:inline;
+  background-color: rgba(206, 203, 203, 0.918);
+  margin-left:10px;
+  width:80px;
+  text-align: center;
+
+}
+
+.logout
+{
+  position: absolute;
+  right:0;
+  top:0;
+  margin:15px 50px 0 0;
+  color:white;
+  background-color: rgb(233, 38, 38);
+  text-decoration: none;
+  border-radius: 8px;
+  padding:8px 15px;
+  font-weight: bold;
+}
+
+.createdAt{
+  margin-top: 20px;
+  opacity: 0.6;
+}
+.updatedAt{
+  position: absolute;
+  right:0;
+  margin-right:20px;
+  opacity: 0.4;
+}
+
+.answerBtn{
+  position:absolute;
+  margin-left: 20%;
+  margin-top: -10px;
+  padding: 4px 5px;
+  border-radius: 5px;
+  border:1px solid green;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  width:60px;
+}
+
+.closeBtn{
+  position:absolute;
+  width:60px;
+  margin-left: 20%;
+  margin-top: -10px;
+  padding: 4px 5px;
+  border-radius: 5px;
+  border:1px solid red;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}
+
+.answerTextarea{
+  border-radius: 5px;
+  margin-left: 5%;
+  width:85%;
+  margin-top: 10px;
+  height: 50px;
+  border:1px dotted rgb(102, 99, 99);
+  padding:3px;
+}
+
+.answer-form input[type='submit']{
+  margin:5px 0 0 5%;
+  border-radius: 5px;
+  border:1px solid green;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  padding:2px 5px;
+}
+
+
